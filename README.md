@@ -6,7 +6,7 @@ Ce modèle a été construit par [CloudCannon](http://cloudcannon.com/).
 
 ## Étapes pour commencer à travailler sur la documentation
 
-  1. Installer [Ruby](https://www.ruby-lang.org/en/)
+  1. Installer [Ruby+Devkit](https://rubyinstaller.org/downloads/)
   2. Installer [Jekyll](https://jekyllrb.com/)
   3. Clôner le projet
 
@@ -39,7 +39,7 @@ Installer les dépendances du Gemfile avec [Bundler](http://bundler.io/):
 $ bundle install
 ~~~
 
-Pour rapidement voir les changements effectués sur l'adresse [localhost:4000](http://localhost:4000.com), excécuter  la commande `Jekyll` suivante à l'aide de `Bundle`:
+Pour rapidement voir les changements effectués sur l'adresse [http://localhost:4000](http://localhost:4000.com), excécuter  la commande `Jekyll` suivante à l'aide de `Bundle`:
 
 ~~~bash
 $ bundle exec jekyll serve
