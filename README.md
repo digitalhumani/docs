@@ -51,5 +51,6 @@ Actuellement, les modifications sont manuellement transférées du dossier *_sit
 * css/style.css
 * favicon.png
 * images/logo.svg
+* images/menu.svg
 * index.html
 * js/main.js
