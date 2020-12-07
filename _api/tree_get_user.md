@@ -4,7 +4,7 @@ position_number: 1.5
 type: get
 description: Count trees for a user
 content_markdown_method: |-
-  The following method allows you to retrieve the number of trees   planted by a specific user
+  The following method allows you to retrieve the number of trees planted by a specific user
 parameters:
   - name: QUERY PARAM
     content: enterpriseId
@@ -14,7 +14,7 @@ parameters:
     values: string
 content_markdown: |-
   **enterpriseId** Id of your enterprise. Example of an enterprise id: 11111111 (Enterprise Ids are 8 digits long)<br/>
-  **user** End user by whom the tree was planted. Example of an user: email@test.com
+  **user** End user by whom the trees were planted. Example of an user: email@test.com
 
   Status: 200
   {: .success}
@@ -22,7 +22,7 @@ content_markdown: |-
   Response will be an object that has the following attributes:
 
   **enterpriseId** Identifier of the enterprise<br/>
-  **user** End user by whom the tree was planted<br/>
+  **user** End user by whom the trees were planted<br/>
   **count** Number of trees planted by a specific user
 left_code_blocks:
   - code_block: |-

@@ -2,9 +2,9 @@
 title: /tree
 position_number: 1.3
 type: post
-description: Plant a tree
+description: Plant one or many trees
 content_markdown_method: |-
-  The following  method sends the request to plant a tree.
+  The following  method sends the request to plant one or many trees.
 parameters:
   - name: Body Parameter
     content: enterpriseId
@@ -25,8 +25,8 @@ content_markdown: |-
   {: .warning}
 
   **enterpriseId**  Id of your enterprise. Example of an enterprise id: 11111111  (Enterprise Ids are 8 digits long)<br/>
-  **projectId** Id of the reforestation project for where you want the tree to be planted. Example of an id: 93333333  (Project Ids are 8 digits long)<br/>
-  **user** End user by whom the tree was planted. Example of an user: email@test.com<br/>
+  **projectId** Id of the reforestation project for where you want the trees to be planted. Example of an id: 93333333  (Project Ids are 8 digits long)<br/>
+  **user** End user by whom the trees were planted. Example of an user: email@test.com<br/>
   **treeCount** Number of trees requested to plant. Example: 1<br/>
 
   Status: 200
@@ -35,11 +35,11 @@ content_markdown: |-
   Response will be an object that has the following attributes:
 
   **uuid** Universally Unique Identifier generated (string)<br/>
-  **created** Creation date of the tree in the RaaS database (ISO 8601 Date and Time format)<br/>
+  **created** Creation date of the trees in the RaaS database (ISO 8601 Date and Time format)<br/>
   **treeCount** Number of trees requested to plant (integer)<br/>
   **enterpriseId** Identifier of the enterprise (string)<br/>
   **projectId** Identifier of the project (string)<br/>
-  **user** End user by whom the tree was planted (string)
+  **user** End user by whom the trees were planted (string)
 
 
 left_code_blocks:
