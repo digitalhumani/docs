@@ -11,15 +11,18 @@ content_markdown: |-
 
   | Reforestation Organization | Location | Project ID | Link to the details of the project |
   | --- | --- | --- |
+  | ChaseAfrica | Kenya | 32146688 | chaseafrica.org.uk |
   | OneTreePlanted | Australia | 93322350 | onetreeplanted.org/collections/asia/products/australia |
   | OneTreePlanted | Brazil | 92222222 | onetreeplanted.org/collections/latin-america/products/brazil-forests |
   | OneTreePlanted | Canada (British Columbia) | 61616161 | onetreeplanted.org/collections/canada/products/british-columbia-forests |
   | OneTreePlanted | Canada (Ontario) | 82828283 | onetreeplanted.org/collections/canada/products/ontario |
   | OneTreePlanted | Canada (Québec) | 82828282 | onetreeplanted.org/collections/canada/products/quebec |
+  | OneTreePlanted | Canada (New-Brunswick) | 41721322 | onetreeplanted.org/collections/canada/products/new-brunswick |
   | OneTreePlanted | Ethiopia | 93333333 | onetreeplanted.org/collections/africa/products/ethiopia |
   | OneTreePlanted | Ghana | 93333366 | onetreeplanted.org/collections/africa/products/ghana |
   | OneTreePlanted | Guatemala | ca9692a1 | onetreeplanted.org/collections/latin-america/products/guatemala-forests |
   | OneTreePlanted | Haiti | ca9692a0 | onetreeplanted.org/collections/latin-america/products/haiti |
+  | OneTreePlanted | Honduras | 97133435 | onetreeplanted.org/collections/latin-america/products/honduras |
   | OneTreePlanted | Indonesia | 93322249 | onetreeplanted.org/collections/asia/products/indonesia |
   | OneTreePlanted | India | 95555557 | onetreeplanted.org/collections/asia/products/india |
   | OneTreePlanted | Kenya | 94444444 | onetreeplanted.org/collections/africa/products/kenya |
@@ -31,11 +34,12 @@ content_markdown: |-
   | OneTreePlanted | USA (Florida) | 81818181 | onetreeplanted.org/collections/united-states/products/florida-forests |
   | OneTreePlanted | USA (Oregon) | 91919191 | onetreeplanted.org/collections/united-states/products/oregon-trees |
   | OneTreePlanted | Vietnam | 95555555 | onetreeplanted.org/collections/asia/products/vietnam |
-  | WebForest | Brazil | 98881222 | weforest.org/project/brazil |
-  | WebForest | Ethiopia | 97777777 | weforest.org/project/ethiopia-seret |
-  | WebForest | India | 96666666 | weforest.org/project/india-khasi-hills |
-  | WebForest | Tanzania | 98888888 | weforest.org/project/tanzania |
-  | WebForest | Zambia | 98881333 | weforest.org/project/zambia-luanshya |
+  | OneTreePlanted | Where the trees are needed the most | 06032322 | onetreeplanted.org |
+  | Weforest | Brazil | 98881222 | weforest.org/project/brazil |
+  | Weforest | Ethiopia | 97777777 | weforest.org/project/ethiopia-seret |
+  | Weforest | India | 96666666 | weforest.org/project/india-khasi-hills |
+  | Weforest | Tanzania | 98888888 | weforest.org/project/tanzania |
+  | Weforest | Zambia | 98881333 | weforest.org/project/zambia-luanshya |
   | TIST | India | 81818182 | program.tist.org/india |
   | TIST | Kenya | 81818183 | program.tist.org/kenya |
 
