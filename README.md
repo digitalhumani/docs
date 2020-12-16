@@ -1,6 +1,6 @@
 # Raas API
 
-The RaaS API documentation is generated using the [Jekyll] tool (https://jekyllrb.com/). This tool allows you to generate html files using markdown format files.
+The RaaS API documentation is generated using the [Jekyll](https://jekyllrb.com/) tool. This tool allows you to generate html files using markdown format files.
 
 This model was built by [CloudCannon](http://cloudcannon.com/).
 
