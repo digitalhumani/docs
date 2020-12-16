@@ -39,7 +39,7 @@ Install the Gemfile dependencies with [Bundler](http://bundler.io/):
 bundle install
 ~~~
 
-To quickly see the changes made at [http://localhost:4000](http://localhost:4000.com), run the following `Jekyll' command using `Bundle':
+To quickly see the changes made at [http://localhost:4000](http://localhost:4000.com), run the following `Jekyll` command using `Bundle`:
 
 ~~~bash
 $ bundle exec jekyll serve
