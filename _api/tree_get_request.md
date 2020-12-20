@@ -4,7 +4,7 @@ position_number: 1.4
 type: get
 description: Get details of a single request to plant one or many trees
 content_markdown_method: |-
-  The following method allows you to retrieve the details of a single request request to plant trees.
+  The following method allows you to retrieve the details of a single request to plant trees.
 parameters:
   - name: URL_PARAM
     content: uuid

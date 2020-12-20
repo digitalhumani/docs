@@ -35,6 +35,8 @@ content_markdown: |-
   | OneTreePlanted | USA (Oregon) | 91919191 | onetreeplanted.org/collections/united-states/products/oregon-trees |
   | OneTreePlanted | Vietnam | 95555555 | onetreeplanted.org/collections/asia/products/vietnam |
   | OneTreePlanted | Where the trees are needed the most | 06032322 | onetreeplanted.org |
+  | Sustainable Harvest International | Belize | 52223885 | www.sustainableharvest.org/programs |
+  | Sustainable Harvest International | Honduras | 52223774 | www.sustainableharvest.org/programs |
   | Weforest | Brazil | 98881222 | weforest.org/project/brazil |
   | Weforest | Ethiopia | 97777777 | weforest.org/project/ethiopia-seret |
   | Weforest | India | 96666666 | weforest.org/project/india-khasi-hills |
