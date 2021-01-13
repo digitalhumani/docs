@@ -5,13 +5,16 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Here is the complete list of available projects from our 3 reforestation partners. They are all available in both environments (Dev and Prod).
+  Here is the complete list of available projects from our 6 reforestation partners. They are all available in all environments.
 
-  **Note:** Because of an unusual high demands for trees in the last few months, availability of certain projects will have to be confirmed.
+  **Note 1:** For an up-to-date list, please use the "/Project GET" method to retrieve the current list.
+
+  **Note 2:** Because of an unusual high demands for trees in the last few months, availability of certain projects will have to be confirmed.
 
   | Reforestation Organization | Location | Project ID | Link to the details of the project |
   | --- | --- | --- |
   | ChaseAfrica | Kenya | 32146688 | chaseafrica.org.uk |
+  | Conserve Natural Forests | Thailand | 17222233 | conservenaturalforests.org/reforestation |  
   | OneTreePlanted | Australia | 93322350 | onetreeplanted.org/collections/asia/products/australia |
   | OneTreePlanted | Brazil | 92222222 | onetreeplanted.org/collections/latin-america/products/brazil-forests |
   | OneTreePlanted | Canada (British Columbia) | 61616161 | onetreeplanted.org/collections/canada/products/british-columbia-forests |

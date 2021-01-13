@@ -64,6 +64,7 @@ GEM
       tzinfo (>= 1.0.0)
 
 PLATFORMS
+  ruby
   universal-darwin-19
 
 DEPENDENCIES
@@ -71,6 +72,7 @@ DEPENDENCIES
   jekyll-seo-tag (= 2.4.0)
   jekyll-sitemap (= 1.2.0)
   kramdown-parser-gfm
+  public_suffix
   tzinfo
   tzinfo-data
 

@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'jekyll', '3.9.0'
 gem 'kramdown-parser-gfm'
+gem 'public_suffix'
 
 group :jekyll_plugins do
   gem 'jekyll-seo-tag', '2.4.0'
