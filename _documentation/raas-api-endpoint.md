@@ -6,7 +6,7 @@ parameters:
     content:
 content_markdown: |-
   #### Development
-  ##### [https://api-dev.digitalhumani.com/](https://api-dev.digitalhumani.com/)
+  ##### [https://api.sandbox.digitalhumani.com/](https://api.sandbox.digitalhumani.com/)
 
   #### Production
   ##### [https://api.digitalhumani.com/](https://api.digitalhumani.com/)

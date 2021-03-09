@@ -37,12 +37,9 @@ right_request_blocks:
 right_code_blocks:
   - code_block: |2-
       {
-        "uuid": "eef9f369-9ae0-45b8-ab07-10650f53a71e",
-        "created": "2019-05-17T00:36:25.797Z",
-        "treeCount": 2,
-        "enterpriseId": "11111111",
-        "projectId": "93333333",
-        "user": "email@test.com"
+        "enterpriseId": "48a45261",
+        "user": "test_user_1",
+        "count": 4
       }
     title: Example response
     language: json
