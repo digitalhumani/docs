@@ -5,7 +5,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  #### Development
+  #### Sandbox
   ##### [https://api.sandbox.digitalhumani.com/](https://api.sandbox.digitalhumani.com/)
 
   #### Production
