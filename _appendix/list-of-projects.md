@@ -48,6 +48,8 @@ content_markdown: |-
   | OneTreePlanted | USA (Oregon) | 91919191 | onetreeplanted.org/collections/united-states/products/oregon-trees |
   | OneTreePlanted | Vietnam | 95555555 | onetreeplanted.org/collections/asia/products/vietnam |
   | OneTreePlanted | Where the trees are needed the most | 06032322 | onetreeplanted.org |
+  | Planting on Demand | Indonesia | 22224444 | plantingondemand.org |
+  | Planting on Demand | Philippines | 22223333 | plantingondemand.org |
   | Sustainable Harvest International | Belize | 52223885 | www.sustainableharvest.org/programs |
   | Sustainable Harvest International | Honduras | 52223774 | www.sustainableharvest.org/programs |
   | TIST | India | 81818182 | program.tist.org/india |
