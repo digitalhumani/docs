@@ -50,11 +50,6 @@ content_markdown: |-
   | OneTreePlanted | Where the trees are needed the most | 06032322 | onetreeplanted.org |
   | Sustainable Harvest International | Belize | 52223885 | www.sustainableharvest.org/programs |
   | Sustainable Harvest International | Honduras | 52223774 | www.sustainableharvest.org/programs |
-  | Weforest | Brazil | 98881222 | weforest.org/project/brazil |
-  | Weforest | Ethiopia | 97777777 | weforest.org/project/ethiopia-seret |
-  | Weforest | India | 96666666 | weforest.org/project/india-khasi-hills |
-  | Weforest | Tanzania | 98888888 | weforest.org/project/tanzania |
-  | Weforest | Zambia | 98881333 | weforest.org/project/zambia-luanshya |
   | TIST | India | 81818182 | program.tist.org/india |
   | TIST | Kenya | 81818183 | program.tist.org/kenya |
   | To be determined | Where they are needed most | 14442771 ||
