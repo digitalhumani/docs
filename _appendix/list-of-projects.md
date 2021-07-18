@@ -14,6 +14,7 @@ content_markdown: |-
   | Reforestation Organization | Location | Project ID | Link to the details of the project |
   | --- | --- | --- |
   | ChaseAfrica | Kenya | 32146688 | chaseafrica.org.uk |
+  | Community Forests International | Canada (Acadia) | 66661111 | forestsinternational.org/restoration/acadianforest |
   | Conserve Natural Forests | Thailand | 17222233 | conservenaturalforests.org/reforestation |  
   | OneTreePlanted | Australia | 93322350 | onetreeplanted.org/collections/asia/products/australia |
   | OneTreePlanted | Brazil | 92222222 | onetreeplanted.org/collections/latin-america/products/brazil-forests |
