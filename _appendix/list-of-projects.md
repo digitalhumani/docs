@@ -23,6 +23,7 @@ content_markdown: |-
   | OneTreePlanted | Canada (Québec) | 82828282 | onetreeplanted.org/collections/canada/products/quebec |
   | OneTreePlanted | Canada (New-Brunswick) | 41721322 | onetreeplanted.org/collections/canada/products/new-brunswick |
   | OneTreePlanted | Colombia | 77112002 | onetreeplanted.org/collections/latin-america/products/colombia |
+  | OneTreePlanted | Côte D'Ivoire | 77222222 | onetreeplanted.org/collections/africa/products/cote-d-ivoire |
   | OneTreePlanted | Denmark | 77119009 | onetreeplanted.org/collections/europe/products/denmark |
   | OneTreePlanted | Ethiopia | 93333333 | onetreeplanted.org/collections/africa/products/ethiopia |
   | OneTreePlanted | Ghana | 93333366 | onetreeplanted.org/collections/africa/products/ghana |
@@ -33,18 +34,18 @@ content_markdown: |-
   | OneTreePlanted | Indonesia | 93322249 | onetreeplanted.org/collections/asia/products/indonesia |
   | OneTreePlanted | India | 95555557 | onetreeplanted.org/collections/asia/products/india |
   | OneTreePlanted | Kenya | 94444444 | onetreeplanted.org/collections/africa/products/kenya |
+  | OneTreePlanted | Malawi | 77223333 | onetreeplanted.org/collections/africa/products/malawi |
   | OneTreePlanted | Mexico | 77111001 | onetreeplanted.org/products/mexico |
   | OneTreePlanted | New Zealand | 77111010 | onetreeplanted.org/collections/the-pacific/products/new-zealand |
   | OneTreePlanted | Peru | 77113003 | onetreeplanted.org/collections/latin-america/products/peru |
   | OneTreePlanted | Philippines | 93322255 | onetreeplanted.org/collections/asia/products/philippine |
   | OneTreePlanted | Romania | 77116006 | onetreeplanted.org/collections/europe/products/romania |
   | OneTreePlanted | Rwanda | 93333377 | onetreeplanted.org/collections/africa/products/rwanda |
-  | OneTreePlanted | Scotland | 77117007 | onetreeplanted.org/collections/europe/products/scotland |
   | OneTreePlanted | Spain | 77118008 | onetreeplanted.org/collections/europe/products/spain |
   | OneTreePlanted | Tanzania | 77114004 | onetreeplanted.org/collections/africa/products/tanzania |
   | OneTreePlanted | Uganda | 93333777 | onetreeplanted.org/collections/africa/products/uganda |
+  | OneTreePlanted | USA (Appalachia) | 77224444 | onetreeplanted.org/collections/united-states/products/appalachia |
   | OneTreePlanted | USA (California) | 91111111 | onetreeplanted.org/collections/united-states/products/california-forests |
-  | OneTreePlanted | USA (Colorado) | 71717171 | onetreeplanted.org/collections/united-states/products/colorado-forests |
   | OneTreePlanted | USA (Florida) | 81818181 | onetreeplanted.org/collections/united-states/products/florida-forests |
   | OneTreePlanted | USA (Oregon) | 91919191 | onetreeplanted.org/collections/united-states/products/oregon-trees |
   | OneTreePlanted | Vietnam | 95555555 | onetreeplanted.org/collections/asia/products/vietnam |
