@@ -5,12 +5,13 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Welcome to our RaaS (Reforestation as as Service) API documentation, from [DigitalHumani.com](DigitalHumani.com) . A simple Application Programming Interfaces (API) helping connect websites and mobile applications to trusted reforestation organizations to have trees planted.
+  Welcome to the documentation for the [DigitalHumani](https://digitalhumani.com) API! We refer to this service as **RaaS**, or "Reforestation as as Service". It is a simple API for planting trees with trusted reforestation organizations.
 
-  The API is organized around [REST](https://en.wikipedia.org/wiki/Representational_state_transfer). All requests should be made over SSL. Also, all request and response bodies, including errors, are encoded in [JSON](https://en.wikipedia.org/wiki/JSON).
+  This a *REST* API. All requests should be made over SSL, and all response bodies, including errors, are encoded in *JSON*. We likewise recommend that all requests be JSON encoded and include the `Content-Type: “application/json”` request header.
 
-  In the header, “Content-Type” requires to have a value of “application/json”
-  {: .info }
+  This documenation will include some high-level information on topics such as authentication and billing followed by detailed information on available API routes. 
+
+  Got any questions, or looking something that's not specified in the docs? Feel free to shoot us a question at [info@digitalhumani.com](mailto:info@digitalhumani.com). We're here to help!
 
 left_code_blocks:
   - code_block:

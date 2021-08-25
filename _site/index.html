@@ -15,7 +15,7 @@
 <meta property="og:url" content="http://localhost:4000/" />
 <meta property="og:site_name" content="RaaS" />
 <script type="application/ld+json">
-{"description":"RaaS API documentation.","headline":"API Docs","url":"http://localhost:4000/","@type":"WebSite","name":"RaaS","@context":"http://schema.org"}</script>
+{"@type":"WebSite","headline":"API Docs","description":"RaaS API documentation.","url":"http://localhost:4000/","name":"RaaS","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -55,8 +55,15 @@
 						</li>
 					
 						<li>
-							<a href="#documentationraas-api-endpoint">
-								RaaS API Endpoint
+							<a href="#documentationgetting-started">
+								Getting Started
+								
+							</a>
+						</li>
+					
+						<li>
+							<a href="#documentationaccessing-api">
+								Accessing the API
 								
 							</a>
 						</li>
@@ -64,6 +71,27 @@
 						<li>
 							<a href="#documentationauthentification">
 								Authentication
+								
+							</a>
+						</li>
+					
+						<li>
+							<a href="#documentationbilling">
+								Billing
+								
+							</a>
+						</li>
+					
+						<li>
+							<a href="#documentationsandbox">
+								Sandbox Environment
+								
+							</a>
+						</li>
+					
+						<li>
+							<a href="#documentationchoose-project">
+								Choosing a Reforestation Project
 								
 							</a>
 						</li>
@@ -186,11 +214,13 @@
 
 					
 				
-				<p>Welcome to our RaaS (Reforestation as as Service) API documentation, from <a href="DigitalHumani.com">DigitalHumani.com</a> . A simple Application Programming Interfaces (API) helping connect websites and mobile applications to trusted reforestation organizations to have trees planted.</p>
+				<p>Welcome to the documentation for the <a href="https://digitalhumani.com">DigitalHumani</a> API! We refer to this service as <strong>RaaS</strong>, or “Reforestation as as Service”. It is a simple API for planting trees with trusted reforestation organizations.</p>
 
-<p>The API is organized around <a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST</a>. All requests should be made over SSL. Also, all request and response bodies, including errors, are encoded in <a href="https://en.wikipedia.org/wiki/JSON">JSON</a>.</p>
+<p>This a <em>REST</em> API. All requests should be made over SSL, and all response bodies, including errors, are encoded in <em>JSON</em>. We likewise recommend that all requests be JSON encoded and include the <code class="language-plaintext highlighter-rouge">Content-Type: “application/json”</code> request header.</p>
 
-<p class="info">In the header, “Content-Type” requires to have a value of “application/json”</p>
+<p>This documenation will include some high-level information on topics such as authentication and billing followed by detailed information on available API routes.</p>
+
+<p>Got any questions, or looking something that’s not specified in the docs? Feel free to shoot us a question at <a href="mailto:info@digitalhumani.com">info@digitalhumani.com</a>. We’re here to help!</p>
 
 
 			</section>
@@ -200,22 +230,53 @@
 		<section class="doc-content">
 			<section class="left-docs">
 				<h3>
-					<a id="documentationraas-api-endpoint">
-						RaaS API Endpoint
+					<a id="documentationgetting-started">
+						Getting Started
 						
 					</a>
-					<a class="editor-link" href="cloudcannon:collections/_documentation/raas-api-endpoint.md">Edit</a>
+					<a class="editor-link" href="cloudcannon:collections/_documentation/getting-started.md">Edit</a>
 				</h3>
 				
 				
 
 					
 				
-				<h4 id="sandbox">Sandbox</h4>
-<h5 id="httpsapisandboxdigitalhumanicom"><a href="https://api.sandbox.digitalhumani.com/">https://api.sandbox.digitalhumani.com/</a></h5>
+				<p>You can get started using the API by registering on the DigitalHumani dashboard at <a href="https://my.digitalhumani.com/register">https://my.digitalhumani.com/register</a>.</p>
 
-<h4 id="production">Production</h4>
-<h5 id="httpsapidigitalhumanicom"><a href="https://api.digitalhumani.com/">https://api.digitalhumani.com/</a></h5>
+<p>Once signed up, navigate to the <em>Developer</em> page to find your API key. You’ll need that key to authenticate with the API. From that page, you’ll also find your <em>enterpriseId</em> which will be useful in your API requests.</p>
+
+<p>Continue reading for more info on how to access and authenticate with the API.</p>
+
+
+			</section>
+			
+		</section>
+	
+		<section class="doc-content">
+			<section class="left-docs">
+				<h3>
+					<a id="documentationaccessing-api">
+						Accessing the API
+						
+					</a>
+					<a class="editor-link" href="cloudcannon:collections/_documentation/accessing-api.md">Edit</a>
+				</h3>
+				
+				
+
+					
+				
+				<p>The API has two available endpoints:</p>
+
+<p><strong>Production</strong>
+<br />
+<a href="https://api.digitalhumani.com/">https://api.digitalhumani.com/</a></p>
+
+<p><strong>Sandbox</strong>
+<br />
+<a href="https://api.sandbox.digitalhumani.com/">https://api.sandbox.digitalhumani.com/</a></p>
+
+<p>Each endpoint offers access to different environments. More information on the <a href="/#documentationsandbox">Sandbox environment</a> available below.</p>
 
 
 			</section>
@@ -236,11 +297,100 @@
 
 					
 				
-				<p>You need to be authenticated for all API requests.</p>
+				<p>All requests to the API require proper authentication, and you’ll need an API key to authenticate. If you haven’t received your API key yet, review the <a href="/#documentationgetting-started">Getting Started</a> section for more information.</p>
 
-<p>For the production environment, set the <strong>X-Api-Key</strong> HTTP header in your API request</p>
+<p>Once you’ve obtained your API key, you can authenticate your request by supplying the key in the <strong>X-Api-Key</strong> HTTP request header:</p>
 
-<p class="info">key: x-api-key<br /> value: YOUR_API_KEY</p>
+<p class="info">Key: X-Api-Key<br /> Value: YOUR_API_KEY</p>
+
+
+			</section>
+			
+		</section>
+	
+		<section class="doc-content">
+			<section class="left-docs">
+				<h3>
+					<a id="documentationbilling">
+						Billing
+						
+					</a>
+					<a class="editor-link" href="cloudcannon:collections/_documentation/billing.md">Edit</a>
+				</h3>
+				
+				
+
+					
+				
+				<p>The <strong>RaaS</strong> solution is 100% free. You only pay for the trees at a cost of <strong>$1 per tree</strong>, and payment is made directly to the reforestation organization. By paying the reforestation organisation directly, you can be sure that every cent is spent on planting trees.</p>
+
+<p>Here’s what you can expect from the billing process:</p>
+<ol>
+  <li>At the beginning of each month, we’ll check-in with you via a quick email to confirm the tree planting requests you’ve made in the last month.</li>
+  <li>If all looks ok, we’ll then reach out to our partner reforestation organization where you requested to plant trees and have them initiate an invoice.</li>
+  <li>You’ll receive an invoice from the reforestation organization and be able to remit payment directly to them.</li>
+  <li>Once you pay the reforestation organisation, they begin the process of planting these trees.</li>
+</ol>
+
+<p>Note: Some reforestation organizations request a minimum number of tree planting requests before providing an invoice, normally around 20 trees. If you do not end up planting 20 trees within a month, we normally just extend the billing period until you do hit the minimum.</p>
+
+<p>This is a flexible process, and we’re happy to help you through it - <a href="mailto:info@digitalhumani.com">reach out to us</a> with any questions you have.</p>
+
+
+			</section>
+			
+		</section>
+	
+		<section class="doc-content">
+			<section class="left-docs">
+				<h3>
+					<a id="documentationsandbox">
+						Sandbox Environment
+						
+					</a>
+					<a class="editor-link" href="cloudcannon:collections/_documentation/sandbox.md">Edit</a>
+				</h3>
+				
+				
+
+					
+				
+				<p>Afer registration, you will have access to 2 separate environments: Sandbox and Production.</p>
+
+<p>The Sandbox environment is used primarily for testing and getting familiar with the API. There are no costs associated with planting trees in Sandbox. Once you are ready to plant real trees, you should do so in the Production environment.</p>
+
+<p>You can access the Sandbox dashboard by logging in at <a href="https://my.sandbox.digitalhumani.com">https://my.sandbox.digitalhumani.com</a>. Initially, you will have the same login credentials for both Production and Sandbox.</p>
+
+<p>Note that you will have a separate API key in the Sandbox and Production environments. To access your API key, navigate to the <em>Developer</em> page.</p>
+
+
+			</section>
+			
+		</section>
+	
+		<section class="doc-content">
+			<section class="left-docs">
+				<h3>
+					<a id="documentationchoose-project">
+						Choosing a Reforestation Project
+						
+					</a>
+					<a class="editor-link" href="cloudcannon:collections/_documentation/choose-project.md">Edit</a>
+				</h3>
+				
+				
+
+					
+				
+				<p>One of the most important first steps of planting trees is deciding where to plant them! We can help you with that process. DigitalHumani supports many great reforestation organizations around the world, so you can plant trees virtually anywhere.</p>
+
+<p>A full list of projects you can support is available via the API - see the <a href="/#apiprojects_list"><code class="language-plaintext highlighter-rouge">GET /project</code></a>  request below.</p>
+
+<p>Not sure where to start? We have a few suggestions:</p>
+<ul>
+  <li>Shoot us <a href="mailto:info@digitalhumani.com">an email</a>. We’re happy to talk thru the process with you</li>
+  <li>We’ve created a special project that plants trees <em>where they’re needed most</em>. This will either defer the decision on where the trees are planted, or can be a temporary placeholder that can be updated to a different project later on. The ID for this project is <em>14442771</em>.</li>
+</ul>
 
 
 			</section>
