@@ -1,4 +1,4 @@
-# Raas API
+# RaaS API Docs
 
 The RaaS API documentation is generated using the [Jekyll](https://jekyllrb.com/) tool. This tool allows you to generate html files using markdown format files.
 
@@ -45,12 +45,8 @@ To quickly see the changes made at [http://localhost:4000](http://localhost:4000
 $ bundle exec jekyll serve
 ~~~
 
-## Deployment of changes
+## Deployment of Changes
 
-Currently, changes are manually transferred from the *_site* folder to the S3 compartment on AWS. The files to be transferred are the following
-* css/style.css
-* favicon.png
-* images/logo.svg
-* images/menu.svg
-* index.html
-* js/main.js
+The site is deployed onto Netlify via a continuous deployment process which just requires a push to the `main` branch to publish new changes.
+
+When adding changes to the site, first open a pull request. Netlify will automatically deploy a separate site to preview the changes in the PR. Information on preview site, including URL, will be automatically added to the PR as a comment.
