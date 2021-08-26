@@ -5,10 +5,10 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  You need to be authenticated for all API requests. 
+  All requests to the API require proper authentication, and you'll need an API key to authenticate. If you haven't received your API key yet, review the [Getting Started](/#documentationgetting-started) section for more information.
 
-  For the production environment, set the **X-Api-Key** HTTP header in your API request
+  Once you've obtained your API key, you can authenticate your request by supplying the key in the **X-Api-Key** HTTP request header:
 
-  key: x-api-key<br/> value: YOUR_API_KEY
+  Key: X-Api-Key<br/> Value: YOUR_API_KEY
   {: .info }
 ---
