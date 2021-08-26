@@ -5,7 +5,7 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  Afer registration, you will have access to 2 separate environments: Sandbox and Production.
+  After registration, you will have access to 2 separate environments: Sandbox and Production.
 
   The Sandbox environment is used primarily for testing and getting familiar with the API. There are no costs associated with planting trees in Sandbox. Once you are ready to plant real trees, you should do so in the Production environment. 
 
