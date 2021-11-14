@@ -5,7 +5,13 @@ parameters:
   - name:
     content:
 content_markdown: |-
-  There are a number of SDKs and integrations available that you can use to easily integrate with the DigitalHumani API. 
+  There are a number of integrations and SDKs available that you can use to easily integrate with the DigitalHumani API. 
+
+  #### Integrations  
+      
+  **Zapier** \| [Digital Humani App (Invite-only)](mailto:info@digitalhumani.com?Subject=Requesting Access to Zapier Integration)
+
+  **Magento** \| [Reforestation Integration](https://marketplace.magento.com/absolute-magento2-reforestation.html)
 
   #### SDKs  
     
@@ -17,13 +23,11 @@ content_markdown: |-
 
   A Ruby SDK and Gem maintained by the DH core team
 
+  **Java** \| [digitalhumani/java-sdk](https://github.com/digitalhumani/java-sdk)
+
+  A Java SDK maintained by the DH core team
+
   **Github Action** \| [Continuous Reforestation](https://github.com/marketplace/actions/continuous-reforestation)
 
   A Github Action for adding reforestation to your Github workflows. Created and maintained by the team at [ProtonTypes](https://protontypes.eu/), source available at [protontypes/continuous-reforestation](https://github.com/protontypes/continuous-reforestation).
-
-  #### Integrations  
-    
-
-    
-  **Magento** \| [Reforestation Integration](https://marketplace.magento.com/absolute-magento2-reforestation.html)
 ---
