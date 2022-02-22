@@ -26,12 +26,12 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      https://api.digitalhumani.com/project
+      !API_URL!/project
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/project
+     !API_URL!/project
     title: Example request
     language: bash
 right_code_blocks:
@@ -49,12 +49,12 @@ right_code_blocks:
         },
         {
           "id": "96666666",
-          "name": "Khasi Hills in India, WeForest",
+          "name": "Khasi Hills in India",
           "reforestationProjectDescription_en": "Reforestation project in the Khasi Hills in India",
           "reforestationProjectState_en": "Khasi Hills",
           "reforestationProjectCountry_en": "India",
-          "reforestationProjectWebsite_en": "https://www.weforest.org/project/india-khasi-hills",
-          "reforestationCompanyName_en": "WeForest",
+          "reforestationProjectWebsite_en": "https://onetreeplanted.org/collections/asia/products/india",
+          "reforestationCompanyName_en": "OneTreePlanted",
         }
       ]
     title: Example response (with 2 reforestation projects included)

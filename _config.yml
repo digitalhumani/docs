@@ -8,6 +8,19 @@ google_analytics_key:
 permalink: pretty
 baseurl:
 
+org_name: Digital Humani
+is_DH: false
+base_url: https://docs.digitalhumani.com # This site
+site_url: https://digitalhumani.com # Marketing site
+api_url: https://api.digitalhumani.com
+dashboard_url: https://my.digitalhumani.com
+dashboard_register_url: https://my.digitalhumani.com/register
+logo_url: https://assets.dev.digitalhumani.com/org/logo.png
+sandbox_api: https://api.sandbox.digitalhumani.com/
+sandbox_dashboard: https://my.sandbox.digitalhumani.com/
+support_email: info@digitalhumani.com
+intro_header: Welcome to the documentation for the [Digital Humani](https://digitalhumani.com/) API! We refer to this service as **RaaS**, or "Reforestation as as Service". It is a simple API for planting trees with trusted reforestation organizations.
+
 # -----
 # Build
 
@@ -32,26 +45,21 @@ exclude:
   - readme.md
   - LICENSE
   - vendor
-  
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
     values:
       layout: default
-  -
-    scope:
+  - scope:
       type: "documentation"
     values:
       _hide_content: true
-  -
-    scope:
+  - scope:
       type: "api"
     values:
       _hide_content: true
-  -
-    scope:
+  - scope:
       type: "appendix"
     values:
       _hide_content: true

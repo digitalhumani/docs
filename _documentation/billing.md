@@ -15,7 +15,7 @@ content_markdown: |-
 
   Note: Some reforestation organizations request a minimum number of tree planting requests before providing an invoice, normally around 20 trees. If you do not end up planting 20 trees within a month, we normally just extend the billing period until you do hit the minimum. 
   
-  This is a flexible process, and we're happy to help you through it - [reach out to us](mailto:info@digitalhumani.com) with any questions you have.
+  This is a flexible process, and we're happy to help you through it - [reach out to us](mailto:!SUPPORT_EMAIL!) with any questions you have.
 
   
 ---

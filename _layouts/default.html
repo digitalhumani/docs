@@ -23,20 +23,11 @@
 	</head>
 	<body>
 		<header>
-			<h1 style="border-bottom: none; box-shadow: none;">
-				<button type="button" class="open-nav" id="open-nav"></button>
-				<!-- Force to digitalhumani docs' endpoint
-					<a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/images/dh-logo.png" height="40" alt="{{ site.title }} logo"></a>-->
-				<a href="https://docs.digitalhumani.com"><img src="./images/dh-logo.png" style="height: 48px; margin-top: 15px;" alt="{{ site.title }} logo"></a>
-			</h1>
+			<a href="{{ site.base_url }}" class="site-logo">
+				<img src="{{ site.logo_url }}" alt="{{ site.org_name }} logo">
+			</a>
 
 			{% include sidebar.html %}
-
-			<p class="copyright">
-				<a href="https://cloudcannon.com/">
-					Template by CloudCannon
-				</a>
-			</p>
 		</header>
 		<div class="main">
 			{{ content }}
