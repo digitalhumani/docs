@@ -1,6 +1,6 @@
 {% capture highlight %}
 ``` {{ include.block.language }}
-{{ include.block.code_block | replace "!API_URL!", site.api_url }}
+{{ include.block.code_block | replace: "!API_URL!", site.api_url }}
 ```
 {: title="{{ include.block.title }}" }
 {% endcapture %}
