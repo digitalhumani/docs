@@ -1,0 +1,12 @@
+# Override default configuration values with environment specific info
+org_name: One Tree Planted
+is_DH: false
+base_url: https://docs.otp.digitalhumani.com 
+site_url: https://onetreeplanted.org # Marketing site
+api_url: https://api.otp.digitalhumani.com
+dashboard_url: https://otp.digitalhumani.com
+dashboard_register_url: https://otp.digitalhumani.com/register
+logo_url: https://assets.otp.digitalhumani.com/org/logo.svg
+logo_css: "height: 75px"
+support_email: api@onetreeplanted.org
+intro_header: Welcome to the documentation for the [One Tree Planted](https://onetreeplanted.org/) API! It is a simple API for planting trees in One Tree Planted forestation projects. The API's base URL is [https://api.otp.digitalhumani.com](https://api.otp.digitalhumani.com).

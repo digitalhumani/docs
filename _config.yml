@@ -9,13 +9,14 @@ permalink: pretty
 baseurl:
 
 org_name: Digital Humani
-is_DH: false
+is_DH: true
 base_url: https://docs.digitalhumani.com # This site
 site_url: https://digitalhumani.com # Marketing site
 api_url: https://api.digitalhumani.com
 dashboard_url: https://my.digitalhumani.com
 dashboard_register_url: https://my.digitalhumani.com/register
 logo_url: https://assets.dev.digitalhumani.com/org/logo.png
+logo_css: "aspect-ratio: 1; width: 33%;"
 sandbox_api: https://api.sandbox.digitalhumani.com/
 sandbox_dashboard: https://my.sandbox.digitalhumani.com/
 support_email: info@digitalhumani.com
@@ -34,7 +35,7 @@ collections:
     title: APIs
     position_number: 2
   appendix:
-    title: Appendix 1
+    title: Appendix
     position_number: 3
 
 plugins:
