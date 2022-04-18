@@ -8,10 +8,16 @@ content_markdown: |-
   There are a number of integrations and SDKs available that you can use to easily integrate with the DigitalHumani API. 
 
   #### Integrations  
+
+  **Shopify via Mesa** \| [Digital Humani Mesa Integration](https://www.getmesa.com/connect/digitalhumani)
+
+  A [Mesa](https://www.getmesa.com/) integration that allows you to integrate Digital Humani into your Shopify store. Note that we'll be launching our own Shopify application in the near-future.
       
   **Zapier** \| [Digital Humani App (Invite-only)](mailto:info@digitalhumani.com?Subject=Requesting Access to Zapier Integration)
 
   **Magento** \| [Reforestation Integration](https://marketplace.magento.com/absolute-magento2-reforestation.html)
+
+  **Microsoft Power Platform Connector** \| [Digital Humani Connector](https://docs.microsoft.com/en-us/connectors/digitalhumaniip/)
 
   #### SDKs  
     
