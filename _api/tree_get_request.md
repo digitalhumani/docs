@@ -25,12 +25,12 @@ content_markdown: |-
   **user** End user by whom the trees were planted (string)
 left_code_blocks:
   - code_block: |-
-     https://api.digitalhumani.com/tree/:uuid-of-tree-planted
+     !API_URL!/tree/:uuid-of-tree-planted
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/tree/bcd35c97-d66c-412e-89ae-ecbac0f629ac
+     !API_URL!/tree/bcd35c97-d66c-412e-89ae-ecbac0f629ac
     title: Example request
     language: bash
 right_code_blocks:

@@ -41,36 +41,36 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-      https://api.digitalhumani.com/project/:id
+      !API_URL!/project/:id
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/project/96666666
+     !API_URL!/project/96666666
     title: Example request
     language: bash
 right_code_blocks:
   - code_block: |2-
       {
-        "reforestationCompanyName_fr": "WeForest",
-        "reforestationProjectImageURL_en": "https://www.weforest.org/sites/IMG_20190423_132725_0.jpg",
-        "reforestationCompanyName_en": "WeForest",
+        "reforestationCompanyName_fr": "OneTreePlanted",
+        "reforestationProjectImageURL_en": "https://cdn.shopify.com/s/files/1/0326/7189/products/india_aa36f63b-f455-4f5e-a6d3-2c0cc2d9936e_5000x.jpg?v=1636667460",
+        "reforestationCompanyName_en": "OneTreePlanted",
         "reforestationProjectCountry_en": "India",
         "reforestationCompanyAddress_en": "Ogentroostlaan 15, 3090 Overijse, Belgium",
         "created": "2018-12-12T09:05:00.725Z",
-        "reforestationProjectWebsite_en": "https://www.weforest.org/project/india-khasi-hills",
-        "name": "Khasi Hills in India, WeForest",
-        "reforestationProjectWebsite_fr": "https://www.weforest.org/project/india-khasi-hills",
+        "reforestationProjectWebsite_en": "https://onetreeplanted.org/collections/asia/products/india",
+        "name": "Khasi Hills in India",
+        "reforestationProjectWebsite_fr": "https://onetreeplanted.org/collections/asia/products/india",
         "reforestationProjectCountry_fr": "Inde",
         "updated": "2019-05-19T19:24:10.761Z",
         "reforestationProjectDescription_fr": "Projet de reforestation aux Khasi Hills en Inde",
         "reforestationProjectDescription_en": "Reforestation project in the Khasi Hills in India",
-        "reforestationCompanyWebsite_fr": "https://www.weforest.org/",
-        "reforestationCompanyWebsite_en": "https://www.weforest.org/",
+        "reforestationCompanyWebsite_fr": "https://onetreeplanted.org/",
+        "reforestationCompanyWebsite_en": "https://onetreeplanted.org/",
         "reforestationCompanyAddress_fr": "Ogentroostlaan 15, 3090 Overijse, Belgique",
-        "description": "Khasi Hills in India, WeForest",
+        "description": "Khasi Hills in India",
         "id": "96666666",
-        "reforestationProjectImageURL_fr": "https://www.weforest.org/sites/default/IMG_20190423_132725_0.jpg"
+        "reforestationProjectImageURL_fr": "https://cdn.shopify.com/s/files/1/0326/7189/products/india_aa36f63b-f455-4f5e-a6d3-2c0cc2d9936e_5000x.jpg?v=1636667460"
       }
     title: Example Response
     language: json

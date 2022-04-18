@@ -44,12 +44,12 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-     https://api.digitalhumani.com/tree + Body Parameters described below
+     !API_URL!/tree + Body Parameters described below
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/tree
+     !API_URL!/tree
      Body parameters
      {
        "treeCount": 1,

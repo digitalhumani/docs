@@ -4,6 +4,7 @@ position_number: 1
 parameters:
   - name:
     content:
+published: {{ site.is_DH }}
 content_markdown: |-
   Here is the complete list of available projects from our 6 reforestation partners. They are all available in all environments.
 
@@ -58,5 +59,5 @@ content_markdown: |-
   | TIST | Kenya | 81818183 | program.tist.org/kenya |
   | To be determined | Where they are needed most | 14442771 ||
 
-  Back to the main page of the RaaS (Reforestation as a Service) main page at [DigitalHumani.com](https://digitalhumani.com)
+  Back to the main page of the RaaS (Reforestation as a Service) main page at [!ORG_NAME!](!SITE_URL!)
 ---

@@ -26,12 +26,12 @@ content_markdown: |-
   **count** Number of trees planted by a specific user
 left_code_blocks:
   - code_block: |-
-     https://api.digitalhumani.com/tree?enterpriseId=:enterpriseId&user=:user
+     !API_URL!/tree?enterpriseId=:enterpriseId&user=:user
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/tree?enterpriseId=48a45261&user=test_user_1
+     !API_URL!/tree?enterpriseId=48a45261&user=test_user_1
     title: Example request
     language: bash
 right_code_blocks:

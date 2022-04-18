@@ -29,12 +29,12 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-     https://api.digitalhumani.com/enterprise/:id/treeCount?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD
+     !API_URL!/enterprise/:id/treeCount?startDate=YYYY-MM-DD&endDate=YYYY-MM-DD
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/enterprise/11111111/treeCount?startDate=2010-03-01&endDate=2030-01-01
+     !API_URL!/enterprise/11111111/treeCount?startDate=2010-03-01&endDate=2030-01-01
     title: Example request
     language: bash
 right_code_blocks:

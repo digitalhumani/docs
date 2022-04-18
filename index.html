@@ -42,7 +42,21 @@ title: API Docs
 							{% endfor %}
 						</table>
 				{% endif %}
-				{{ doc.content_markdown | markdownify | replace: "<dl>", "<h6>Parameters</h6><dl>" }}
+				{{ doc.content_markdown |
+					replace: "<dl>", "<h6>Parameters</h6><dl>" |
+					replace: "!ORG_NAME!", site.org_name |
+					replace: "!BASE_URL!", site.base_url |
+					replace: "!SITE_URL!", site.site_url |
+					replace: "!API_URL!", site.api_url |
+					replace: "!DASHBOARD_URL!", site.dashboard_url |
+					replace: "!DASHBOARD_REGISTER_URL!", site.dashboard_register_url |
+					replace: "!LOGO_URL!", site.logo_url |
+					replace: "!SANDBOX_API!", site.sandbox_api |
+					replace: "!SANDBOX_DASHBOARD!", site.sandbox_dashboard |
+					replace: "!SUPPORT_EMAIL!", site.support_email |
+					replace: "!INTRO_HEADER!", site.intro_header |
+					markdownify
+				}}
 
 			</section>
 			{% if doc.right_code_blocks and doc.right_code_blocks[0].code_block %}

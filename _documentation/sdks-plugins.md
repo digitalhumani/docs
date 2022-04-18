@@ -4,6 +4,7 @@ position_number: 7
 parameters:
   - name:
     content:
+published: {{ site.is_DH }}
 content_markdown: |-
   There are a number of integrations and SDKs available that you can use to easily integrate with the DigitalHumani API. 
 
