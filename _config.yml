@@ -16,7 +16,7 @@ api_url: https://api.digitalhumani.com
 dashboard_url: https://my.digitalhumani.com
 dashboard_register_url: https://my.digitalhumani.com/register
 logo_url: https://assets.dev.digitalhumani.com/org/logo.png
-favicon_url: https://assets.otp.digitalhumani.com/org/favicon.png
+favicon_url: https://assets.dev.digitalhumani.com/org/favicon.ico
 logo_css: "aspect-ratio: 1; width: 33%;"
 sandbox_api: https://api.sandbox.digitalhumani.com/
 sandbox_dashboard: https://my.sandbox.digitalhumani.com/
