@@ -13,7 +13,7 @@ content_markdown: |-
 
   A [Mesa](https://www.getmesa.com/) integration that allows you to integrate Digital Humani into your Shopify store. Note that we'll be launching our own Shopify application in the near-future.
       
-  **Zapier** \| [Digital Humani App (Invite-only)](mailto:info@digitalhumani.com?Subject=Requesting Access to Zapier Integration)
+  **Zapier** \| [Digital Humani App](https://zapier.com/apps/digital-humani/integrations)
 
   **Magento** \| [Reforestation Integration](https://marketplace.magento.com/absolute-magento2-reforestation.html)
 
@@ -23,7 +23,8 @@ content_markdown: |-
     
   **PHP** \| [rickkuilman/digital-humani-php-sdk](https://github.com/rickkuilman/digital-humani-php-sdk)
 
-  A PHP SDK and Composer package created and maintained by community member Rick Kuilman  
+
+  A PHP SDK and Composer package created and maintained by community member Rick Kuilman     
 
   **Ruby** \| [digitalhumani/ruby-sdk](https://github.com/digitalhumani/ruby-sdk)
 
@@ -32,6 +33,10 @@ content_markdown: |-
   **Java** \| [digitalhumani/java-sdk](https://github.com/digitalhumani/java-sdk)
 
   A Java SDK maintained by the DH core team
+
+  **Go** \| [AidanFogarty/go-digital-humani](https://github.com/AidanFogarty/go-digital-humani)
+
+  A Go SDK created and maintained by community member Aidan Fogarty
 
   **Github Action** \| [Continuous Reforestation](https://github.com/marketplace/actions/continuous-reforestation)
 
