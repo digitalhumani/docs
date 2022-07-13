@@ -14,13 +14,19 @@ content_markdown: |-
   A [Mesa](https://www.getmesa.com/) integration that allows you to integrate Digital Humani into your Shopify store. Note that we'll be launching our own Shopify application in the near-future.
       
   **Zapier** \| [Digital Humani App](https://zapier.com/apps/digital-humani/integrations)
-  <zapier-app-directory
-  app="digital-humani"
-  link-target="new-tab"
-  theme="light"
-  create-without-template="show"
-  use-this-zap="show"
-  ></zapier-app-directory>
+
+  <div style="margin-left: 1rem; --zapier-text: #474a54;">
+   <zapier-app-directory
+    app="digital-humani"
+    link-target="new-tab"
+    theme="light"
+    applimit="4"
+    zaplimit="3"
+    introcopy="hide"
+    create-without-template="show"
+    use-this-zap="show"
+    ></zapier-app-directory>
+  </div>
 
   **Magento** \| [Reforestation Integration](https://marketplace.magento.com/absolute-magento2-reforestation.html)
 
