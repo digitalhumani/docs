@@ -21,8 +21,11 @@ content_markdown: |-
 
   #### SDKs  
     
-  **PHP** \| [rickkuilman/digital-humani-php-sdk](https://github.com/rickkuilman/digital-humani-php-sdk)
+  **JavaScript** \| [impe93/digital-humani-js-sdk](https://github.com/impe93/digital-humani-js-sdk)
 
+  A JavaScript SDK created and maintained by community member Lorenzo Imperatrice
+
+  **PHP** \| [rickkuilman/digital-humani-php-sdk](https://github.com/rickkuilman/digital-humani-php-sdk)
 
   A PHP SDK and Composer package created and maintained by community member Rick Kuilman     
 
