@@ -23,7 +23,7 @@ content_markdown: |-
     
   **JavaScript** \| [impe93/digital-humani-js-sdk](https://github.com/impe93/digital-humani-js-sdk)
 
-  A JavaScript SDK created and maintained by community member Lorenzo Imperatrice
+  A JavaScript SDK and npm package created and maintained by community member Lorenzo Imperatrice
 
   **PHP** \| [rickkuilman/digital-humani-php-sdk](https://github.com/rickkuilman/digital-humani-php-sdk)
 
