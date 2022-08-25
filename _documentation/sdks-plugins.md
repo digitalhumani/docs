@@ -19,6 +19,8 @@ content_markdown: |-
 
   **Microsoft Power Platform Connector** \| [Digital Humani Connector](https://docs.microsoft.com/en-us/connectors/digitalhumaniip/)
 
+  **Cyclr** \| [Digital Humani Connector](https://cyclr.com/integrate/digital-humani)
+
   #### SDKs  
     
   **JavaScript** \| [impe93/digital-humani-js-sdk](https://github.com/impe93/digital-humani-js-sdk)
