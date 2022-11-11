@@ -15,6 +15,11 @@ content_markdown: |-
       
   **Zapier** \| [Digital Humani App](https://zapier.com/apps/digital-humani/integrations)
 
+
+  **WooCommerce** \| [Digital Humani for WooCommerce](https://www.wooninja.io/digital-humani-for-woocommerce/)
+
+  A WooCommerce integration created and maintained by our partners at WooNinja (thanks!)
+
   **Magento** \| [Reforestation Integration](https://marketplace.magento.com/absolute-magento2-reforestation.html)
 
   **Microsoft Power Platform Connector** \| [Digital Humani Connector](https://docs.microsoft.com/en-us/connectors/digitalhumaniip/)
