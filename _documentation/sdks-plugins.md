@@ -18,7 +18,7 @@ content_markdown: |-
 
   **WooCommerce** \| [Digital Humani for WooCommerce](https://www.wooninja.io/digital-humani-for-woocommerce/)
 
-  A WooCommerce integration created and maintained by our partners at WooNinja
+  A WooCommerce integration created and maintained by our partners at WooNinja (thanks!)
 
   **Magento** \| [Reforestation Integration](https://marketplace.magento.com/absolute-magento2-reforestation.html)
 
