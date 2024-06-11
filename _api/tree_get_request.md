@@ -25,7 +25,7 @@ content_markdown: |-
   **user** End user by whom the trees were planted (string)
 left_code_blocks:
   - code_block: |-
-     https://api.digitalhumani.com/tree/:uuid-of-tree-planted
+      https://api.digitalhumani.com/tree/:uuid-of-tree-planted
     title:
     language: bash
 right_request_blocks:
@@ -36,7 +36,7 @@ right_request_blocks:
 right_code_blocks:
   - code_block: |2-
       {
-        "projectId": "81818182",
+        "projectId": "44116666",
         "created": "2020-04-11T18:01:40.441Z",
         "uuid": "bcd35c97-d66c-412e-89ae-ecbac0f629ac",
         "user": "1",
@@ -46,4 +46,3 @@ right_code_blocks:
     title: Example response
     language: json
 ---
-

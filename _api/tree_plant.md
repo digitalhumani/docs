@@ -25,7 +25,7 @@ content_markdown: |-
   {: .warning}
 
   **enterpriseId**  Id of your enterprise. Example of an enterprise id: 11111111  (Enterprise Ids are 8 digits long)<br/>
-  **projectId** Id of the reforestation project for where you want the trees to be planted. Example of an id: 93333333  (Project Ids are 8 digits long)<br/>
+  **projectId** Id of the reforestation project for where you want the trees to be planted. Example of an id: 44116666  (Project Ids are 8 digits long)<br/>
   **user** End user by whom the trees were planted. Example of an user: email@test.com<br/>
   **treeCount** Number of trees requested to plant. Example: 1<br/>
 
@@ -54,7 +54,7 @@ right_request_blocks:
      {
        "treeCount": 1,
        "enterpriseId": "1234abcd",
-       "projectId": "93322249",
+       "projectId": "44116666",
        "user": "test_user_1"
      }
     title: Example request
@@ -67,7 +67,7 @@ right_code_blocks:
         "created": "2019-05-17T00:36:25.797Z",
         "treeCount": 2,
         "enterpriseId": "11111111",
-        "projectId": "93333333",
+        "projectId": "44116666",
         "user": "email@test.com"
       }
     title: Example response
