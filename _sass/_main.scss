@@ -178,6 +178,12 @@ dl dd:after {
 	height: 0;
 }
 
+a.site-logo {
+	display: flex;
+    justify-content: center;
+    margin: 20px 0px 15px;
+}
+
 .sidebar h6 {
 	line-height: 1em;
 	font-size: 1.5rem;
@@ -187,7 +193,7 @@ dl dd:after {
 }
 
 .sidebar {
-	padding: 10px 0px 0 10px;
+	padding-left: 20px;
 	white-space:nowrap;
 	background-color: whitesmoke;
 	overflow-y: auto;
@@ -460,7 +466,7 @@ hr {
 }
 
 header {
-	max-height: 100vh;
+	height: 100vh;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -515,7 +521,6 @@ header {
 	}
 
 	@media (min-width: $mobile-break) {
-		background-color: transparent;
 		width: $nav-width;
 		right: auto;
 		bottom: auto;

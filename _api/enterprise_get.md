@@ -25,12 +25,12 @@ content_markdown: |-
 
 left_code_blocks:
   - code_block: |-
-     https://api.digitalhumani.com/enterprise/:id
+      !API_URL!/enterprise/:id
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/enterprise/11111111
+     !API_URL!/enterprise/11111111
     title: Example request
     language: bash
 right_code_blocks:

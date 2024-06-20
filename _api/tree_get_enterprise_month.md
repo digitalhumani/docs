@@ -24,12 +24,12 @@ content_markdown: |-
   **count** Number of trees planted by the enterprise for a specific month
 left_code_blocks:
   - code_block: |-
-     https://api.digitalhumani.com/enterprise/:id/treeCount/YYYY-MM
+     !API_URL!/enterprise/:id/treeCount/YYYY-MM
     title:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/enterprise/11111111/treeCount/2020-02
+     !API_URL!/enterprise/11111111/treeCount/2020-02
     title: Example request
     language: bash
 right_code_blocks:

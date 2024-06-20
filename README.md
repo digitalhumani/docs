@@ -50,3 +50,20 @@ $ bundle exec jekyll serve
 The site is deployed onto Netlify via a continuous deployment process which just requires a push to the `main` branch to publish new changes.
 
 When adding changes to the site, first open a pull request. Netlify will automatically deploy a separate site to preview the changes in the PR. Information on preview site, including URL, will be automatically added to the PR as a comment.
+
+## Alternate environments
+
+The documentation site can be customized for alternate environments by defining a new `_config-{env}.yml`. There are two primary steps to this process:
+
+1. Define a new file `_config-{env}.yml`, where `{env}` is a short name for the environment (such as `dev`). In this file, define the environment-specific variables you want to override from the [default](_config.yml) configuration file.
+2. Serve a local version of the site with the custom configuration by running the following, which will use the default configuration file and override with any variables defined in your custom configuration:
+
+~~~bash
+bundle exec jekyll serve -w --config _config.yml,_config-{env}.yml
+~~~
+
+A similar command can be used when **building** the site for deployment with a custom configuration:
+
+~~~bash
+bundle exec jekyll build -w --config _config.yml,_config-{env}.yml
+~~~
