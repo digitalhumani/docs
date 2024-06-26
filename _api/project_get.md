@@ -21,6 +21,7 @@ content_markdown: |-
   - **updated** - Date of the last modification of the project information (ISO 8601 Date and Time format)<br/>
   - **id** - Unique identifier of the project (string)<br/>
   - **name** - Short name of the project, in English (deprecated) (string)<br/>
+  - **active** - Indicator of project's active/inactive status (boolean)<br/>
   - **description** - Short Description of the project, in English (deprecated) (string)<br/>
   - **reforestationCompanyName_en** - Name of the reforestation company in English (string)<br/>
   - **reforestationCompanyName_fr** - Name of the reforestation company in French (string)<br/>

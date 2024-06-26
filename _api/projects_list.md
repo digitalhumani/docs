@@ -16,6 +16,7 @@ content_markdown: |-
 
   - **id** - Unique identifier of the project (string)<br/>
   - **name** - Short name of the project (string)<br/>
+  - **active** - Indicator of project's active/inactive status (boolean)<br/>
   - **reforestationProjectDescription_en** - Description of the reforestation project (string)<br/>
   - **reforestationProjectState_en** - State or province where the reforestation project is located (string)<br/>
   - **reforestationProjectCountry_en** - Country of the reforestation project (string)<br/>
