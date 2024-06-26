@@ -16,6 +16,7 @@ content_markdown: |-
 
   - **id** - Unique identifier of the project (string)<br/>
   - **name** - Short name of the project (string)<br/>
+  - **active** - Indicator of project's active/inactive status (boolean)<br/>
   - **reforestationProjectDescription_en** - Description of the reforestation project (string)<br/>
   - **reforestationProjectState_en** - State or province where the reforestation project is located (string)<br/>
   - **reforestationProjectCountry_en** - Country of the reforestation project (string)<br/>
@@ -38,23 +39,23 @@ right_code_blocks:
   - code_block: |2-
       [
         { 
-          "id": "91111111",
-          "name": "California OneTreePlanted",
-          "reforestationProjectDescription_en": "Reforestation project in California, United States",
-          "reforestationProjectState_en": "California",
-          "reforestationProjectCountry_en": "United States",
-          "reforestationProjectWebsite_en": "https://onetreeplanted.org/united-states/products/california-forests",
+          "id": "44116666",
+          "name": "Africa OneTreePlanted",
+          "active": true,
+          "reforestationProjectDescription_en": "Reforestation projects in Africa",
+          "reforestationProjectCountry_en": "Africa",
+          "reforestationProjectWebsite_en": "https://onetreeplanted.org/collections/africa",
           "reforestationCompanyName_en": "OneTreePlanted",
           
         },
         {
-          "id": "96666666",
-          "name": "Khasi Hills in India, WeForest",
-          "reforestationProjectDescription_en": "Reforestation project in the Khasi Hills in India",
-          "reforestationProjectState_en": "Khasi Hills",
-          "reforestationProjectCountry_en": "India",
-          "reforestationProjectWebsite_en": "https://www.weforest.org/project/india-khasi-hills",
-          "reforestationCompanyName_en": "WeForest",
+          "id": "52223885",
+          "name": "Belize SustainableHarvest",
+          "active": true,
+          "reforestationProjectDescription_en": "Reforestation project in Belize",
+          "reforestationProjectCountry_en": "Belize",
+          "reforestationProjectWebsite_en": "https://www.sustainableharvest.org/programs",
+          "reforestationCompanyName_en": "Sustainable Harvest International",
         }
       ]
     title: Example response (with 2 reforestation projects included)

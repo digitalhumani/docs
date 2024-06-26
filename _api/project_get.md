@@ -10,7 +10,7 @@ parameters:
     content: id
     values: string
 content_markdown: |-
-  **id** Id of the reforestation project for which you want to get the details. Example of an id: 93333333  (Project Ids are 8 digits long). The complete list of available projects is listed in the Appendix&nbsp;1.
+  **id** Id of the reforestation project for which you want to get the details. Example of an id: 44116666  (Project Ids are 8 digits long). You can find a [complete list of available projects](#appendixlist-of-projects) listed in the Appendix.
 
   Status: 200
   {: .success}
@@ -21,6 +21,7 @@ content_markdown: |-
   - **updated** - Date of the last modification of the project information (ISO 8601 Date and Time format)<br/>
   - **id** - Unique identifier of the project (string)<br/>
   - **name** - Short name of the project, in English (deprecated) (string)<br/>
+  - **active** - Indicator of project's active/inactive status (boolean)<br/>
   - **description** - Short Description of the project, in English (deprecated) (string)<br/>
   - **reforestationCompanyName_en** - Name of the reforestation company in English (string)<br/>
   - **reforestationCompanyName_fr** - Name of the reforestation company in French (string)<br/>
@@ -46,31 +47,33 @@ left_code_blocks:
     language: bash
 right_request_blocks:
   - code_block: |1-
-     https://api.digitalhumani.com/project/96666666
+     https://api.digitalhumani.com/project/44116666
     title: Example request
     language: bash
 right_code_blocks:
   - code_block: |2-
       {
-        "reforestationCompanyName_fr": "WeForest",
-        "reforestationProjectImageURL_en": "https://www.weforest.org/sites/IMG_20190423_132725_0.jpg",
-        "reforestationCompanyName_en": "WeForest",
-        "reforestationProjectCountry_en": "India",
-        "reforestationCompanyAddress_en": "Ogentroostlaan 15, 3090 Overijse, Belgium",
-        "created": "2018-12-12T09:05:00.725Z",
-        "reforestationProjectWebsite_en": "https://www.weforest.org/project/india-khasi-hills",
-        "name": "Khasi Hills in India, WeForest",
-        "reforestationProjectWebsite_fr": "https://www.weforest.org/project/india-khasi-hills",
-        "reforestationProjectCountry_fr": "Inde",
-        "updated": "2019-05-19T19:24:10.761Z",
-        "reforestationProjectDescription_fr": "Projet de reforestation aux Khasi Hills en Inde",
-        "reforestationProjectDescription_en": "Reforestation project in the Khasi Hills in India",
-        "reforestationCompanyWebsite_fr": "https://www.weforest.org/",
-        "reforestationCompanyWebsite_en": "https://www.weforest.org/",
-        "reforestationCompanyAddress_fr": "Ogentroostlaan 15, 3090 Overijse, Belgique",
-        "description": "Khasi Hills in India, WeForest",
-        "id": "96666666",
-        "reforestationProjectImageURL_fr": "https://www.weforest.org/sites/default/IMG_20190423_132725_0.jpg"
+          "id": "44116666",
+          "name": "Africa OneTreePlanted",
+          "active": true,
+          "description": "Africa OneTreePlanted",
+          "reforestationCompanyName_fr": "OneTreePlanted",
+          "reforestationProjectImageURL_en": "",
+          "reforestationCompanyName_en": "OneTreePlanted",
+          "reforestationProjectCountry_en": "Africa",
+          "reforestationCompanyAddress_en": "145 Pine Haven Shores Rd #1000D Shelburne, Vermont, 05482, USA",
+          "created": "2024-05-23T09:05:00.725Z",
+          "reforestationProjectWebsite_en": "https://onetreeplanted.org/collections/africa",
+          "reforestationProjectWebsite_fr": "https://onetreeplanted.org/collections/africa",
+          "reforestationProjectCountry_fr": "Afrique",
+          "location_en": "Africa",
+          "updated": "2024-05-23T19:21:44.646Z",
+          "reforestationProjectDescription_fr": "Projets de reforestation en Afrique",
+          "reforestationProjectDescription_en": "Reforestation projects in Africa",
+          "reforestationCompanyWebsite_fr": "https://onetreeplanted.org/",
+          "reforestationCompanyWebsite_en": "https://onetreeplanted.org/",
+          "reforestationCompanyAddress_fr": "145 Pine Haven Shores Rd #1000D Shelburne, Vermont, 05482, USA",
+          "reforestationProjectImageURL_fr": ""
       }
     title: Example Response
     language: json

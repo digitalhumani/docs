@@ -11,52 +11,36 @@ content_markdown: |-
 
   **Note 2:** Because of an unusual high demands for trees in the last few months, availability of certain projects will have to be confirmed.
 
-  | Reforestation Organization | Location | Project ID | Link to the details of the project |
+  **Note 3:** Please validate that a project has an "active" status of "true". Only "active" projects are available for donations.
+
+  | Reforestation Organization | Location | Project ID | Project Details |
   | --- | --- | --- |
-  | ChaseAfrica | Kenya | 32146688 | chaseafrica.org.uk |
-  | Community Forests International | Canada (Acadia) | 66661111 | forestsinternational.org/restoration/acadianforest |
-  | Conserve Natural Forests | Thailand | 17222233 | conservenaturalforests.org/reforestation |  
-  | OneTreePlanted | Australia | 93322350 | onetreeplanted.org/collections/asia/products/australia |
-  | OneTreePlanted | Brazil | 92222222 | onetreeplanted.org/collections/latin-america/products/brazil-forests |
-  | OneTreePlanted | Canada (British Columbia) | 61616161 | onetreeplanted.org/collections/canada/products/british-columbia-forests |
-  | OneTreePlanted | Canada (Ontario) | 82828283 | onetreeplanted.org/collections/canada/products/ontario |
-  | OneTreePlanted | Canada (Québec) | 82828282 | onetreeplanted.org/collections/canada/products/quebec |
-  | OneTreePlanted | Canada (New-Brunswick) | 41721322 | onetreeplanted.org/collections/canada/products/new-brunswick |
-  | OneTreePlanted | Colombia | 77112002 | onetreeplanted.org/collections/latin-america/products/colombia |
-  | OneTreePlanted | Côte D'Ivoire | 77222222 | onetreeplanted.org/collections/africa/products/cote-d-ivoire |
-  | OneTreePlanted | Denmark | 77119009 | onetreeplanted.org/collections/europe/products/denmark |
-  | OneTreePlanted | Ethiopia | 93333333 | onetreeplanted.org/collections/africa/products/ethiopia |
-  | OneTreePlanted | Ghana | 93333366 | onetreeplanted.org/collections/africa/products/ghana |
-  | OneTreePlanted | Guatemala | ca9692a1 | onetreeplanted.org/collections/latin-america/products/guatemala-forests |
-  | OneTreePlanted | Haiti | ca9692a0 | onetreeplanted.org/collections/latin-america/products/haiti |
-  | OneTreePlanted | Honduras | 97133435 | onetreeplanted.org/collections/latin-america/products/honduras |
-  | OneTreePlanted | Iceland | 77115005 | onetreeplanted.org/collections/europe/products/iceland|
-  | OneTreePlanted | Indonesia | 93322249 | onetreeplanted.org/collections/asia/products/indonesia |
-  | OneTreePlanted | India | 95555557 | onetreeplanted.org/collections/asia/products/india |
-  | OneTreePlanted | Kenya | 94444444 | onetreeplanted.org/collections/africa/products/kenya |
-  | OneTreePlanted | Malawi | 77223333 | onetreeplanted.org/collections/africa/products/malawi |
-  | OneTreePlanted | Mexico | 77111001 | onetreeplanted.org/products/mexico |
-  | OneTreePlanted | New Zealand | 77111010 | onetreeplanted.org/collections/the-pacific/products/new-zealand |
-  | OneTreePlanted | Peru | 77113003 | onetreeplanted.org/collections/latin-america/products/peru |
-  | OneTreePlanted | Philippines | 93322255 | onetreeplanted.org/collections/asia/products/philippine |
-  | OneTreePlanted | Romania | 77116006 | onetreeplanted.org/collections/europe/products/romania |
-  | OneTreePlanted | Rwanda | 93333377 | onetreeplanted.org/collections/africa/products/rwanda |
-  | OneTreePlanted | Spain | 77118008 | onetreeplanted.org/collections/europe/products/spain |
-  | OneTreePlanted | Tanzania | 77114004 | onetreeplanted.org/collections/africa/products/tanzania |
-  | OneTreePlanted | Uganda | 93333777 | onetreeplanted.org/collections/africa/products/uganda |
-  | OneTreePlanted | USA (Appalachia) | 77224444 | onetreeplanted.org/collections/united-states/products/appalachia |
-  | OneTreePlanted | USA (California) | 91111111 | onetreeplanted.org/collections/united-states/products/california-forests |
-  | OneTreePlanted | USA (Florida) | 81818181 | onetreeplanted.org/collections/united-states/products/florida-forests |
-  | OneTreePlanted | USA (Oregon) | 91919191 | onetreeplanted.org/collections/united-states/products/oregon-trees |
-  | OneTreePlanted | Vietnam | 95555555 | onetreeplanted.org/collections/asia/products/vietnam |
-  | OneTreePlanted | Where the trees are needed the most | 06032322 | onetreeplanted.org |
-  | Planting on Demand | Indonesia | 22224444 | plantingondemand.org |
-  | Planting on Demand | Philippines | 22223333 | plantingondemand.org |
-  | Sustainable Harvest International | Belize | 52223885 | www.sustainableharvest.org/programs |
-  | Sustainable Harvest International | Honduras | 52223774 | www.sustainableharvest.org/programs |
-  | TIST | India | 81818182 | program.tist.org/india |
-  | TIST | Kenya | 81818183 | program.tist.org/kenya |
-  | To be determined | Where they are needed most | 14442771 ||
+  | Mount Kenya Trust |	Kenya	| 32146688 | [https://mountkenyatrust.org](https://mountkenyatrust.org){:target="_blank"} |
+  | Community Forests International |	Canada (Acadia) |	66661111 | [https://forestsinternational.org](https://forestsinternational.org){:target="_blank"} |
+  | Conserve Natural Forests | Thailand | 17222233 | [https://conservenaturalforests.org](https://conservenaturalforests.org){:target="_blank"} |
+  | OneTreePlanted | Europe	| 44117777 |	[https://onetreeplanted.org/collections/europe](https://onetreeplanted.org/collections/europe){:target="_blank"} |
+  | OneTreePlanted | India	| 95555557 |	[https://onetreeplanted.org/collections/asia/products/india](https://onetreeplanted.org/collections/asia/products/india){:target="_blank"} |
+  | OneTreePlanted | Mexico	| 77111001 |	[https://onetreeplanted.org/products/mexico](https://onetreeplanted.org/products/mexico){:target="_blank"} |
+  | OneTreePlanted | Africa	| 44116666 |	[https://onetreeplanted.org/collections/africa](https://onetreeplanted.org/collections/africa){:target="_blank"} |
+  | OneTreePlanted | United States	| 44112222 |	[https://onetreeplanted.org/collections/united-states](https://onetreeplanted.org/collections/united-states){:target="_blank"} |
+  | OneTreePlanted | North America	| 44111111 |	[https://onetreeplanted.org/collections/north-america](https://onetreeplanted.org/collections/north-america){:target="_blank"} |
+  | OneTreePlanted | Brazil	| 92222222 |	[https://onetreeplanted.org/collections/latin-america/products/brazil-forests](https://onetreeplanted.org/collections/latin-america/products/brazil-forests){:target="_blank"} |
+  | OneTreePlanted | Biodiversity - Various	| 22775008 |	[https://onetreeplanted.org/collections/africa/products/biodiversity](https://onetreeplanted.org/collections/africa/products/biodiversity){:target="_blank"} |
+  | OneTreePlanted | Africa - AFR100 project	| 37083883 |	[https://onetreeplanted.org/collections/africa/products/afr100](https://onetreeplanted.org/collections/africa/products/afr100){:target="_blank"} |
+  | OneTreePlanted | Fire Forest Recovery - Various	| 83380611 |	[https://onetreeplanted.org/products/forest-fire-recovery](https://onetreeplanted.org/products/forest-fire-recovery){:target="_blank"} |
+  | OneTreePlanted | Canada	| 44113333 |	[https://onetreeplanted.org/collections/canada](https://onetreeplanted.org/collections/canada){:target="_blank"} |
+  | OneTreePlanted | Latin America	| 44114444 |	[https://onetreeplanted.org/collections/latin-america](https://onetreeplanted.org/collections/latin-america){:target="_blank"} |
+  | OneTreePlanted | Peru	| 77113003 |	[https://onetreeplanted.org/collections/latin-america/products/peru](https://onetreeplanted.org/collections/latin-america/products/peru){:target="_blank"} |
+  | OneTreePlanted | Asia	| 44115555 |	[https://onetreeplanted.org/collections/asia](https://onetreeplanted.org/collections/asia){:target="_blank"} |
+  | OneTreePlanted | Where the trees are needed the most	| 06032322 | [https://onetreeplanted.org/](https://onetreeplanted.org/){:target="_blank"} |
+  | OneTreePlanted | Mangroves	| 41783460 |	[https://onetreeplanted.org/collections/asia/products/mangroves](https://onetreeplanted.org/collections/asia/products/mangroves){:target="_blank"} |
+  | Planting on Demand |	Indonesia |	22224444 |	[https://plantingondemand.org](https://plantingondemand.org){:target="_blank"} |
+  | Planting on Demand |	Philippines |	22223333 |	[https://plantingondemand.org](https://plantingondemand.org){:target="_blank"} |
+  | Sustainable Harvest International	| Belize	| 52223885 |	[https://sustainableharvest.org/programs](https://sustainableharvest.org/programs){:target="_blank"} |
+  | Sustainable Harvest International	| Honduras	| 52223774 |	[https://sustainableharvest.org/programs](https://sustainableharvest.org/programs){:target="_blank"} |
+  | TIST | India | 81818182 | [https://program.tist.org/india](https://program.tist.org/india){:target="_blank"} |
+  | TIST | Kenya | 81818183 | [https://program.tist.org/kenya](https://program.tist.org/kenya){:target="_blank"} |
+  | To be determined | Where they are needed most	| 14442771 | See [Choosing a Reforestation Project](#documentationchoose-project)|
 
   Back to the main page of the RaaS (Reforestation as a Service) main page at [DigitalHumani.com](https://digitalhumani.com)
 ---
